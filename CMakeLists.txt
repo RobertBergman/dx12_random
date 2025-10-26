@@ -49,7 +49,7 @@ add_executable(GraphicsEngine
 target_include_directories(GraphicsEngine PRIVATE
     ${CMAKE_SOURCE_DIR}/include/core
     ${CMAKE_SOURCE_DIR}/include/renderers
-    ${CMAKE_SOURCE_DIR}  # For d3dx12.h
+    ${CMAKE_SOURCE_DIR}/include/third_party
 )
 
 # Set Windows subsystem
